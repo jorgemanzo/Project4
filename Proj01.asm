@@ -23,7 +23,7 @@ main PROC
 
 ; (insert executable instructions here)
 ;Call Intro
-call	intro
+;call	intro
 ;Call GetInput 
 ;Call Verify
 ;CALL printComposite(their number of composities they want printed)
@@ -33,12 +33,12 @@ main ENDP
 
 
 ;introduction()
-intro	PROC
-	mov		EDX,	OFFSET	greeting
-	call	WriteString
-	call	ReadInt
-	ret
-intro	ENDP
+;intro	PROC
+;	mov		EDX,	OFFSET	greeting
+;	call	WriteString
+;	call	ReadInt
+;	ret
+;intro	ENDP
 	
 
 
